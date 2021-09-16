@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 10px solid black;
+}
+#container {
+    font-size: 30px;
+    display: grid;
+}
+#header {
+    background-color: mediumseagreen;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#list{
+    color: Orange;
+    margin: 0px;
+    text-transform: initial;
+    background-color: white;
+
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+#input,button {
+    border: 5px solid green;
+    margin: 10px 10px;
+}
+#input {
+    width: 96.5%;
+    padding: 15px;
+}
+button:hover {
+    color: Orange;
+    background-color: green;
+}
+#remove {
+    color: white;
+    background-color: indianred;
+    border: white;
+    margin: 0px;
+}
